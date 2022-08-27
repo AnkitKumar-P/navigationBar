@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HorozontialNavigationBar</title>
+    <!-- Styleing -->
+    <style>
+        nav {
+            background-color: black;
+            border-radius: 27px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 1.6vw;
+        }
+
+        nav ul li {
+            list-style-type: none;
+
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: yellow;
+            font-style: italic;
+            /* font-size: 1.1rem; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Structure -->
+    <nav>
+        <ul>
+            <li><a href="">Google</a></li>
+            <li><a href="">YouTube</a></li>
+            <li><a href="">LeetCode</a></li>
+            <li><a href="">GFG</a></li>
+            <li><a href="">Vision</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
